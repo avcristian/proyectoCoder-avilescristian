@@ -46,6 +46,11 @@ a:visited {
 .logo{
     height: 100%;
 }
+.contenedorImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .sobreMi {
     padding: 15px;
