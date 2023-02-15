@@ -8,6 +8,13 @@
     font-weight: 300;
     font-size: 16px;
 }
+.gral{
+    background-color: #FFF8E1;
+
+}
+.bg-container{
+    background-color: #fff;
+}
 
 h1{
     font-weight: 600;
@@ -41,7 +48,7 @@ a:visited {
 }
 
 .sobreMi {
-    margin-top: 10px;
+    padding: 15px;
 }
 .textoJust{
     text-align: justify;
