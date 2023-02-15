@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <title>ShowroomBAS</title>
@@ -14,7 +15,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navar">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"> <div class="contenedorLogo"> <img src="assets/img/logo.png" class="logo" alt="Bas"> </div></a> <h1>Logo</h1>
+                <a class="navbar-brand" href="index.html"> <div class="contenedorLogo"> <img src="assets/img/logo.png" class="logo" alt="Bas"> </div></a> <h1>ShowroomBAS</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -27,7 +28,7 @@
                         <a class="nav-link" href="#">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Mas Info</a>
+                        <a class="nav-link" href="pages/masinfo.html">Mas Info</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Ubicacion</a>
@@ -36,7 +37,7 @@
                 </div>
             </div>
         </nav>
-        </header>
+    </header>
     <main>
         <div class="container">
             <section class="sobreMi">
@@ -45,21 +46,21 @@
                         <h2>Un poco de mi</h2>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-5">
-                        <div class="contImg">
-                            <img src="./assets/img/brda,.jpeg" alt="B" class="img-fluid">
+                        <div class="contenedorImg">
+                            <img src="./assets/img/brda.jpeg" alt="B" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-8 col-xl-7 parrafo">
                         <p class="textoJust">
                             Brenda Saavedra es una amante del deporte y la moda. Tras graduarse de la universidad, trabajó en una tienda deportiva, donde se dio cuenta de que había una oportunidad en el mercado para ropa deportiva que combinara estilo y comodidad. Con su pasión y su experiencia, decidió emprender y comenzó a diseñar su propia línea de ropa deportiva. 
                         </p>   
-                        <a href="#" class="btn btnPropio">Seguir Leyendo</a>
+                        <a href="pages/masinfo.html" class="btn btnPropio">Seguir Leyendo</a>
                     </div>
                 </di>
             </section>
             <section>
-                <h2> Prodcutos destacados</h2>
-                <section class="container   justify-content-center ">
+                <h2 class="mt-4"> Prodcutos destacados</h2>
+                <section class="justify-content-center productos">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -93,8 +94,19 @@
         </div>
     </main>
     <footer>
-        
+        <div class="footer">
+            <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram si"></i>
+            </a>
+            <a href="https://www.facebook.com/">
+                <i class="fa-brands fa-facebook si"></i>
+            </a>
+            <a href="https://web.whatsapp.com/">
+                <i class="fa-brands fa-whatsapp si"></i>
+            </a>
+        </div>
     </footer>
+    <script src="js/all.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

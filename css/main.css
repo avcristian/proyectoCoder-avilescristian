@@ -13,6 +13,18 @@ h1{
     font-weight: 600;
     font-size: 2.4rem;
 }
+a {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none 
+}
+a:hover {
+    text-decoration: none 
+}
+a:visited {
+    text-decoration: none 
+}
 
 .navar{
     background-color: #ADA2FF;
@@ -41,25 +53,59 @@ h1{
     justify-content: center;
 }
 .btnPropio{
+    color: #fff;
     background-color: #ADA2FF;
-    color: #191919;
 }
 
 .btnPropio:hover{
     color: #fff;
     background-color: #7e6dfa;
 }
-.corousel{
-    width: 50%;
-}
-.carousel-item{
-    height: 80vh;
+.productos{
+    margin-top: 20px;
 }
 .imgCarrusel{
     /*height: 100%;*/
     object-fit: contain;
 }
- 
+
 .caroulerImg img{
     height: 100%;
 }
+
+.footer{
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ADA2FF;
+}
+.si{
+    font-size: 30px;
+}
+a .fa-whatsapp{
+    color: #25D366;
+}
+a .fa-instagram{
+    color: #E1306C;
+}
+.contImg{
+    height: 25vh;
+}
+.contImg img{
+    height: 100%;
+    object-fit: cover;
+}
+@media (min-width: 768px) {
+    
+    .corousel{
+        width: 50%;
+    }
+    .carousel-item{
+        height: 80vh;
+    }
+    .si{
+        font-size: 45px;
+    }
+}
+
