@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.gral{
+    background-color: #FFF8E1;
+
+}
+.bg-container{
+    background-color: #fff;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none 
+}
+a:hover {
+    text-decoration: none 
+}
+a:visited {
+    text-decoration: none 
+}
+
+.navar{
+    background-color: #ADA2FF;
+}
+.navFlex{
+    width: 100%;
+    justify-content: flex-end;
+}
+.contenedorLogo{
+    height: 6vh;
+}
+.logo{
+    height: 100%;
+}
+.contenedorImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobreMi {
+    padding: 15px;
+}
+.textoJust{
+    text-align: justify;
+}
+.parrafo{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btnPropio{
+    color: #fff;
+    background-color: #ADA2FF;
+}
+
+.btnPropio:hover{
+    color: #fff;
+    background-color: #7e6dfa;
+}
+.productos{
+    margin-top: 20px;
+}
+.imgCarrusel{
+    /*height: 100%;*/
+    object-fit: contain;
+}
+
+.caroulerImg img{
+    height: 100%;
+}
+
+.footer{
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ADA2FF;
+}
+.si{
+    font-size: 30px;
+}
+a .fa-whatsapp{
+    color: #25D366;
+}
+a .fa-instagram{
+    color: #E1306C;
+}
+.contImg{
+    height: 25vh;
+}
+.contImg img{
+    height: 100%;
+    object-fit: cover;
+}
+@media (min-width: 768px) {
+    
+    .corousel{
+        width: 50%;
+    }
+    .carousel-item{
+        height: 80vh;
+    }
+    .si{
+        font-size: 45px;
+    }
+}
+
